@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Membuat Form</title>
+</head>
+<body>
+    <form method="POST" action="gambar.html">
+        <h4>FORM</h4>
+        
+        <!-- Input Nama & Alamat -->
+        <input type="text" name="var1" SIZE="30" VALUE="Enter your name here.!"><BR><BR>
+        <input type="text" name="var2" SIZE="30" VALUE="Enter your address here.!"><BR><BR>
+
+        <!-- Checkbox Student -->
+        <b>Are you a student?</b>
+        <input type="checkbox" name="var3"><BR><BR>
+
+        <!-- Radio Umur -->
+        <b>How old are you?</b><BR>
+        <input type="radio" name="var4" value="r1"> 10-15 <BR>
+        <input type="radio" name="var4" value="r2"> 16-20 <BR>
+        <input type="radio" name="var4" value="r3"> 21-25 <BR><BR>
+
+        <!-- Checkbox Kendaraan -->
+        <b>Which one do you have?</b><br><br>
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+        <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+        <input type="checkbox" name="vehicle3" value="Boat"> I have a boat<br>
+        <input type="checkbox" name="vehicle4" value="Plane" checked> I have a plane<br><br>
+
+        <!-- Dropdown Negara -->
+        <b>Where are you from?</b><br>
+        <select name="var6" size="1">
+            <option value="BG">Bulgaria</option>
+            <option value="UK">United Kingdom</option>
+            <option value="USA">USA</option>
+            <option value="ID" selected>Indonesia</option>
+        </select><br><br>
+
+        <!-- Input Password -->
+        <b>Enter your private code</b><br>
+        <input type="password" name="var_pass"><br><br>
+
+        <!-- Textarea Komentar -->
+        <b>Enter your comment</b><br>
+        <textarea name="var_comment" cols="30" rows="5">Fill this area</textarea><br><br>
+
+        <!-- Tombol Submit & Reset -->
+        <input type="submit" name="vars" value="Send">
+        <input type="reset" name="vars" value="Clear">
+    </form>
+</body>
+</html>
