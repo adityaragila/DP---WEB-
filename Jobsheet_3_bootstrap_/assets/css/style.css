@@ -1,0 +1,22 @@
+/* ===== Custom Override SIMPUS-Mini Brand di atas Bootstrap 5 ===== */
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #d9e8f5 !important;
+}
+
+form button[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #164869 !important;
+}
+
+footer {
+    text-align: center;
+    padding: 1.25rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
