@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIMPUS-Mini | Registrasi Anggota Baru</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>SIMPUS-Mini</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="buku/list.html">Daftar Buku</a></li>
+                <li><a href="anggota/list.html">Daftar Anggota</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="auth-wrapper" style="max-width: 500px;">
+        <section>
+            <div class="auth-header">
+                <h2>Registrasi Anggota Baru</h2>
+                <p>Lengkapi data diri Anda untuk menjadi anggota perpustakaan</p>
+            </div>
+
+            <form action="login.html" method="get">
+                <p>
+                    <label for="nik">Nomor Identitas (NIK/NISN)</label>
+                    <input type="text" id="nik" name="nik" placeholder="Contoh: 3507123456780001" required autofocus>
+                </p>
+                <p>
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                </p>
+                <p>
+                    <label for="jk">Jenis Kelamin</label>
+                    <select id="jk" name="jk" required>
+                        <option value="">-- Pilih Jenis Kelamin --</option>
+                        <option value="L">Laki-laki</option>
+                        <option value="P">Perempuan</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="alamat">Alamat Lengkap</label>
+                    <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat domisili" required>
+                </p>
+                <p>
+                    <label for="telepon">Nomor Telepon / WhatsApp</label>
+                    <input type="tel" id="telepon" name="telepon" placeholder="Contoh: 081234567890" required>
+                </p>
+                <p>
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </p>
+                <p style="margin-top: 1.5rem;">
+                    <button type="submit" class="btn-block">Daftar Sekarang</button>
+                </p>
+            </form>
+
+            <div class="auth-footer">
+                <p>Sudah punya akun? <a href="login.html">Masuk di sini</a></p>
+                <p style="margin-top: 0.5rem;"><a href="index.html">&larr; Kembali ke Beranda</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 4</p>
+    </footer>
+</body>
+</html>
